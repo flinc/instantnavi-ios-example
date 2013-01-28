@@ -17,7 +17,8 @@
 		7C2290EE16B6CC0C00371906 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2290ED16B6CC0C00371906 /* Default@2x.png */; };
 		7C2290F016B6CC0C00371906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2290EF16B6CC0C00371906 /* Default-568h@2x.png */; };
 		7C2290F316B6CC0C00371906 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2290F116B6CC0C00371906 /* MainStoryboard.storyboard */; };
-		7C2290F616B6CC0C00371906 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2290F516B6CC0C00371906 /* ViewController.m */; };
+		7C2290F616B6CC0C00371906 /* StartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2290F516B6CC0C00371906 /* StartViewController.m */; };
+		7C2290FE16B6CDDD00371906 /* InstantNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2290FD16B6CDDD00371906 /* InstantNaviViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +36,10 @@
 		7C2290ED16B6CC0C00371906 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		7C2290EF16B6CC0C00371906 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7C2290F216B6CC0C00371906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		7C2290F416B6CC0C00371906 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7C2290F516B6CC0C00371906 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7C2290F416B6CC0C00371906 /* StartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartViewController.h; sourceTree = "<group>"; };
+		7C2290F516B6CC0C00371906 /* StartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartViewController.m; sourceTree = "<group>"; };
+		7C2290FC16B6CDDD00371906 /* InstantNaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InstantNaviViewController.h; sourceTree = "<group>"; };
+		7C2290FD16B6CDDD00371906 /* InstantNaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InstantNaviViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,10 +87,12 @@
 			isa = PBXGroup;
 			children = (
 				7C2290E816B6CC0C00371906 /* AppDelegate.h */,
+				7C2290FC16B6CDDD00371906 /* InstantNaviViewController.h */,
+				7C2290FD16B6CDDD00371906 /* InstantNaviViewController.m */,
 				7C2290E916B6CC0C00371906 /* AppDelegate.m */,
 				7C2290F116B6CC0C00371906 /* MainStoryboard.storyboard */,
-				7C2290F416B6CC0C00371906 /* ViewController.h */,
-				7C2290F516B6CC0C00371906 /* ViewController.m */,
+				7C2290F416B6CC0C00371906 /* StartViewController.h */,
+				7C2290F516B6CC0C00371906 /* StartViewController.m */,
 				7C2290E016B6CC0C00371906 /* Supporting Files */,
 			);
 			path = InstantNaviDemo;
@@ -175,7 +180,8 @@
 			files = (
 				7C2290E616B6CC0C00371906 /* main.m in Sources */,
 				7C2290EA16B6CC0C00371906 /* AppDelegate.m in Sources */,
-				7C2290F616B6CC0C00371906 /* ViewController.m in Sources */,
+				7C2290F616B6CC0C00371906 /* StartViewController.m in Sources */,
+				7C2290FE16B6CDDD00371906 /* InstantNaviViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +298,7 @@
 				7C2290FB16B6CC0C00371906 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

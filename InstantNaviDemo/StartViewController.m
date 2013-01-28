@@ -1,18 +1,10 @@
-//
-//  ViewController.m
-//  InstantNaviDemo
-//
-//  Created by Konstantin Tennhard on 1/28/13.
-//  Copyright (c) 2013 Konstantin Tennhard. All rights reserved.
-//
+#import "StartViewController.h"
 
-#import "ViewController.h"
-
-@interface ViewController ()
+@interface StartViewController ()
 
 @end
 
-@implementation ViewController
+@implementation StartViewController
 
 - (void)viewDidLoad
 {
