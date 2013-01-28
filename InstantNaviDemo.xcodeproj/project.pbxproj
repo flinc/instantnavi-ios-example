@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C2290DA16B6CC0C00371906 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2290D916B6CC0C00371906 /* UIKit.framework */; };
+		7C2290DC16B6CC0C00371906 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2290DB16B6CC0C00371906 /* Foundation.framework */; };
+		7C2290DE16B6CC0C00371906 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C2290DD16B6CC0C00371906 /* CoreGraphics.framework */; };
+		7C2290E416B6CC0C00371906 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7C2290E216B6CC0C00371906 /* InfoPlist.strings */; };
+		7C2290E616B6CC0C00371906 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2290E516B6CC0C00371906 /* main.m */; };
+		7C2290EA16B6CC0C00371906 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2290E916B6CC0C00371906 /* AppDelegate.m */; };
+		7C2290EC16B6CC0C00371906 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2290EB16B6CC0C00371906 /* Default.png */; };
+		7C2290EE16B6CC0C00371906 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2290ED16B6CC0C00371906 /* Default@2x.png */; };
+		7C2290F016B6CC0C00371906 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C2290EF16B6CC0C00371906 /* Default-568h@2x.png */; };
+		7C2290F316B6CC0C00371906 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C2290F116B6CC0C00371906 /* MainStoryboard.storyboard */; };
+		7C2290F616B6CC0C00371906 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C2290F516B6CC0C00371906 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7C2290D516B6CC0C00371906 /* InstantNaviDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstantNaviDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C2290D916B6CC0C00371906 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7C2290DB16B6CC0C00371906 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7C2290DD16B6CC0C00371906 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7C2290E116B6CC0C00371906 /* InstantNaviDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "InstantNaviDemo-Info.plist"; sourceTree = "<group>"; };
+		7C2290E316B6CC0C00371906 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7C2290E516B6CC0C00371906 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7C2290E716B6CC0C00371906 /* InstantNaviDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstantNaviDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7C2290E816B6CC0C00371906 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7C2290E916B6CC0C00371906 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7C2290EB16B6CC0C00371906 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7C2290ED16B6CC0C00371906 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7C2290EF16B6CC0C00371906 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7C2290F216B6CC0C00371906 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7C2290F416B6CC0C00371906 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7C2290F516B6CC0C00371906 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7C2290D216B6CC0C00371906 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2290DA16B6CC0C00371906 /* UIKit.framework in Frameworks */,
+				7C2290DC16B6CC0C00371906 /* Foundation.framework in Frameworks */,
+				7C2290DE16B6CC0C00371906 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7C2290CA16B6CC0B00371906 = {
+			isa = PBXGroup;
+			children = (
+				7C2290DF16B6CC0C00371906 /* InstantNaviDemo */,
+				7C2290D816B6CC0C00371906 /* Frameworks */,
+				7C2290D616B6CC0C00371906 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7C2290D616B6CC0C00371906 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C2290D516B6CC0C00371906 /* InstantNaviDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7C2290D816B6CC0C00371906 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C2290D916B6CC0C00371906 /* UIKit.framework */,
+				7C2290DB16B6CC0C00371906 /* Foundation.framework */,
+				7C2290DD16B6CC0C00371906 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C2290DF16B6CC0C00371906 /* InstantNaviDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7C2290E816B6CC0C00371906 /* AppDelegate.h */,
+				7C2290E916B6CC0C00371906 /* AppDelegate.m */,
+				7C2290F116B6CC0C00371906 /* MainStoryboard.storyboard */,
+				7C2290F416B6CC0C00371906 /* ViewController.h */,
+				7C2290F516B6CC0C00371906 /* ViewController.m */,
+				7C2290E016B6CC0C00371906 /* Supporting Files */,
+			);
+			path = InstantNaviDemo;
+			sourceTree = "<group>";
+		};
+		7C2290E016B6CC0C00371906 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C2290E116B6CC0C00371906 /* InstantNaviDemo-Info.plist */,
+				7C2290E216B6CC0C00371906 /* InfoPlist.strings */,
+				7C2290E516B6CC0C00371906 /* main.m */,
+				7C2290E716B6CC0C00371906 /* InstantNaviDemo-Prefix.pch */,
+				7C2290EB16B6CC0C00371906 /* Default.png */,
+				7C2290ED16B6CC0C00371906 /* Default@2x.png */,
+				7C2290EF16B6CC0C00371906 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7C2290D416B6CC0C00371906 /* InstantNaviDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C2290F916B6CC0C00371906 /* Build configuration list for PBXNativeTarget "InstantNaviDemo" */;
+			buildPhases = (
+				7C2290D116B6CC0C00371906 /* Sources */,
+				7C2290D216B6CC0C00371906 /* Frameworks */,
+				7C2290D316B6CC0C00371906 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstantNaviDemo;
+			productName = InstantNaviDemo;
+			productReference = 7C2290D516B6CC0C00371906 /* InstantNaviDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7C2290CC16B6CC0B00371906 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Konstantin Tennhard";
+			};
+			buildConfigurationList = 7C2290CF16B6CC0B00371906 /* Build configuration list for PBXProject "InstantNaviDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7C2290CA16B6CC0B00371906;
+			productRefGroup = 7C2290D616B6CC0C00371906 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C2290D416B6CC0C00371906 /* InstantNaviDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7C2290D316B6CC0C00371906 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2290E416B6CC0C00371906 /* InfoPlist.strings in Resources */,
+				7C2290EC16B6CC0C00371906 /* Default.png in Resources */,
+				7C2290EE16B6CC0C00371906 /* Default@2x.png in Resources */,
+				7C2290F016B6CC0C00371906 /* Default-568h@2x.png in Resources */,
+				7C2290F316B6CC0C00371906 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7C2290D116B6CC0C00371906 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C2290E616B6CC0C00371906 /* main.m in Sources */,
+				7C2290EA16B6CC0C00371906 /* AppDelegate.m in Sources */,
+				7C2290F616B6CC0C00371906 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7C2290E216B6CC0C00371906 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C2290E316B6CC0C00371906 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7C2290F116B6CC0C00371906 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7C2290F216B6CC0C00371906 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7C2290F716B6CC0C00371906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7C2290F816B6CC0C00371906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C2290FA16B6CC0C00371906 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstantNaviDemo/InstantNaviDemo-Prefix.pch";
+				INFOPLIST_FILE = "InstantNaviDemo/InstantNaviDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7C2290FB16B6CC0C00371906 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstantNaviDemo/InstantNaviDemo-Prefix.pch";
+				INFOPLIST_FILE = "InstantNaviDemo/InstantNaviDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7C2290CF16B6CC0B00371906 /* Build configuration list for PBXProject "InstantNaviDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2290F716B6CC0C00371906 /* Debug */,
+				7C2290F816B6CC0C00371906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C2290F916B6CC0C00371906 /* Build configuration list for PBXNativeTarget "InstantNaviDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C2290FA16B6CC0C00371906 /* Debug */,
+				7C2290FB16B6CC0C00371906 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7C2290CC16B6CC0B00371906 /* Project object */;
+}
